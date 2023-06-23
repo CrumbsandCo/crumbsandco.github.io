@@ -1,0 +1,270 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Hello",
+          "Good morning",
+          "Good afternoon",
+          "Good evening"
+        ],
+        "responses": [
+          "Hello! Welcome to our bakery.",
+          "Hi there! How can I assist you today?",
+          "Hey! How can I help you with our bakery products?",
+          "Good day! How may I assist you?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Goodbye",
+          "Bye",
+          "See you later",
+          "Take care"
+        ],
+        "responses": [
+          "Goodbye! Have a wonderful day.",
+          "Bye! We hope to see you again soon.",
+          "Take care! See you next time."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Appreciate it",
+          "Thanks a lot"
+        ],
+        "responses": [
+          "You're welcome! It was my pleasure to assist you.",
+          "You're welcome! If you have any more questions, feel free to ask.",
+          "No problem! Let me know if there's anything else I can help you with."
+        ]
+      },
+      {
+        "tag": "menu",
+        "patterns": [
+          "What items do you have?",
+          "What's on the menu?",
+          "Tell me about your bakery items",
+          "What can I order?"
+        ],
+        "responses": [
+          "We offer a wide range of bakery items such as fresh bread, cakes, pastries, cookies, and sandwiches.",
+          "Our menu includes a variety of freshly baked bread, delicious cakes, mouthwatering pastries, tempting cookies, and flavorful sandwiches.",
+          "At our bakery, you can find a delightful selection of fresh bread, cakes, pastries, cookies, and sandwiches."
+        ]
+      },
+      {
+        "tag": "specials",
+        "patterns": [
+          "Are there any specials?",
+          "What are your daily specials?",
+          "Do you have any discounts?",
+          "Are there any promotions?"
+        ],
+        "responses": [
+          "Yes, we have daily specials that change frequently. Please ask our staff for the current specials.",
+          "Absolutely! We offer daily specials and promotions. Feel free to ask our staff for details.",
+          "Certainly! We regularly have special offers and discounts. Ask our staff for more information on the current promotions."
+        ]
+      },
+      {
+        "tag": "ordering",
+        "patterns": [
+          "How can I place an order?",
+          "Can I order online?",
+          "Do you offer delivery?",
+          "What are your ordering options?"
+        ],
+        "responses": [
+          "You can place an order by visiting our bakery in person or by calling our order hotline. We also have an online ordering system on our website.",
+          "Yes, we offer online ordering through our website. You can browse our menu, select your items, and complete the order online.",
+          "We provide various ordering options. You can visit our bakery, call our order hotline, or place an order online through our website."
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "Do you offer delivery?",
+          "Can you deliver to my location?",
+          "How long does delivery take?",
+          "What's the delivery process?"
+        ],
+        "responses": [
+          "Yes, we offer delivery services to selected areas. Please provide your location, and we will check if it's within our delivery range.", 
+          "We do provide delivery. The delivery time depends on your location and current demand. It usually takes 1-2 hours within the city.",
+          "Delivery is available for specific locations. The delivery time may vary based on your address. Our staff will provide you with more details."
+        ]
+      },
+      {
+        "tag": "customization",
+        "patterns": [
+          "Can I customize my order?",
+          "Do you accommodate special requests?",
+          "Can I make changes to the menu items?",
+          "Are there options for dietary restrictions?"
+        ],
+        "responses": [
+          "Yes, we can accommodate certain customization requests. Please let us know your specific requirements, and we will do our best to assist you.",
+          "Certainly! We understand that everyone has unique preferences. Feel free to inform us of any special requests or dietary restrictions, and we will try to accommodate them.",
+          "We strive to meet our customers' needs. If you have any special requests or dietary restrictions, please inform our staff, and we will assist you accordingly."
+        ]
+      },
+      {
+        "tag": "hours",
+        "patterns": [
+          "What are your business hours?",
+          "When are you open?",
+          "What time do you close?",
+          "Are you open on weekends?"
+        ],
+        "responses": [
+          "Our bakery is open from [insert opening time] to [insert closing time] on weekdays. On weekends, we operate from [insert opening time] to [insert closing time].",
+          "We are open on weekdays from [insert opening time] to [insert closing time], and on weekends from [insert opening time] to [insert closing time].",
+          "Our business hours are [insert opening time] to [insert closing time] on weekdays, and [insert opening time] to [insert closing time] on weekends."
+        ]
+      },
+      {
+        "tag": "vegan",
+        "patterns": [
+          "Do you have vegan options?",
+          "Are there any vegan items on the menu?",
+          "Can you recommend vegan choices?",
+          "I follow a vegan diet."
+        ],
+        "responses": [
+          "Yes, we offer a selection of vegan options on our menu. Our staff can guide you to the vegan items available.",
+          "Absolutely! We have a range of delicious vegan options for you to choose from. Our staff will be happy to assist you in finding the perfect vegan items.",
+          "We understand and appreciate different dietary preferences. We have vegan options available, and our staff can help you make the best choices for your vegan diet."
+        ]
+      },
+      {
+        "tag": "gluten_free",
+        "patterns": [
+          "Do you have gluten-free options?",
+          "Are there any gluten-free items?",
+          "Can you recommend gluten-free choices?",
+          "I have a gluten intolerance."
+        ],
+        "responses": [
+          "Certainly! We have a variety of gluten-free options for you to enjoy. Our staff can assist you in selecting the suitable gluten-free items.",
+          "Yes, we offer gluten-free options to cater to various dietary needs. Feel free to ask our staff for recommendations on gluten-free choices.",
+          "We understand the importance of gluten-free options. Our bakery provides a range of delicious gluten-free items. Let us know about your dietary requirements, and we will assist you accordingly."
+        ]
+      },
+      {
+        "tag": "kids",
+        "patterns": [
+          "Do you have options for kids?",
+          "Are there any kid-friendly items?",
+          "Can you recommend items for children?",
+          "I'm looking for something for my child."
+        ],
+        "responses": [
+          "Absolutely! We have a delightful range of kid-friendly items that are sure to please children of all ages. Ask our staff for recommendations.",
+          "Yes, we offer several options that are perfect for kids. Our staff can help you choose items that will be loved by children.",
+          "We have a special selection of items designed with kids in mind. Let us know your child's preferences, and we will suggest the perfect options."
+        ]
+      },
+      {
+        "tag": "fun_fact",
+        "patterns": [
+          "Tell me a fun fact",
+          "Share a bakery-related fact",
+          "Do you have any interesting facts?",
+          "I'd love to know a fun fact"
+        ],
+        "responses": [
+          "Sure, here's a fun fact: The world's largest birthday cake ever made was over 26,000 pounds and was created in 1989 to celebrate the 100th anniversary of the city of Fort Payne, Alabama.",
+          "Here's an interesting fact: The oldest known recipe for a cake is a Sumerian recipe dating back to 1750 BC. It was discovered on a tablet in Southern Iraq.",
+          "Did you know that the largest wedding cake ever made weighed over 15,000 pounds? It had more than 5,000 eggs, 4,810 pounds of icing sugar, and 2,500 pounds of marzipan."
+        ]
+      },
+ 
+      {
+        "tag": "menu_items",
+        "patterns": [
+          "What items are on your menu?",
+          "Tell me about your menu",
+          "What do you offer to eat?",
+          "Can you give me a list of your food items?"
+        ],
+        "responses": [
+          "On our menu, you can find a variety of delicious food options:",
+          "We offer a wide range of tasty food items:",
+          "Our menu includes the following mouthwatering dishes:",
+          "Here are some of the delectable food items you can find on our menu:"
+        ]
+      },
+      {
+        "tag": "breakfast",
+        "patterns": [
+          "What breakfast options do you have?",
+          "Tell me about your breakfast menu",
+          "What can I have for breakfast?"
+        ],
+        "responses": [
+          "For breakfast, we have a selection of options such as hearty omelettes, fluffy pancakes, crispy bacon, fresh fruit bowls, and freshly brewed coffee.",
+          "Our breakfast menu includes a variety of choices like eggs benedict, french toast, avocado toast, yogurt parfaits, and a range of breakfast sandwiches.",
+          "Start your day right with our breakfast menu featuring items like scrambled eggs, breakfast burritos, croissants, oatmeal, and a variety of freshly squeezed juices."
+        ]
+      },
+      {
+        "tag": "lunch",
+        "patterns": [
+          "What are your lunch options?",
+          "Tell me about your lunch menu",
+          "What can I have for lunch?"
+        ],
+        "responses": [
+          "Our lunch menu offers a diverse range of options including sandwiches, salads, soups, pasta dishes, and daily specials.",
+          "For lunch, you can enjoy items like gourmet burgers, wraps, fresh salads, homemade soups, and a variety of hot and cold sandwiches.",
+          "Satisfy your midday cravings with our lunch menu featuring delicious choices such as paninis, sushi rolls, grain bowls, quiches, and refreshing iced teas."
+        ]
+      },
+      {
+        "tag": "dinner",
+        "patterns": [
+          "What are your dinner options?",
+          "Tell me about your dinner menu",
+          "What can I have for dinner?"
+        ],
+        "responses": [
+          "Indulge in a delightful dinner with our menu offering dishes like grilled steaks, seafood platters, roasted chicken, pasta specialties, and gourmet pizzas.",
+          "Our dinner menu showcases a variety of options including international cuisines like Thai curries, Mediterranean grilled dishes, Mexican enchiladas, and more.",
+          "Experience a memorable dinner with our menu featuring elegant dishes like seared scallops, prime rib, vegetable risotto, grilled salmon, and decadent desserts."
+        ]
+      },
+      {
+        "tag": "desserts",
+        "patterns": [
+          "What desserts do you offer?",
+          "Tell me about your dessert menu",
+          "What can I have for dessert?"
+        ],
+        "responses": [
+          "Save room for our delectable desserts, including classic favorites like creamy cheesecake, warm chocolate brownies, fruit tarts, and artisanal ice creams.",
+          "Indulge your sweet tooth with our dessert menu featuring irresistible treats like molten lava cakes, homemade pies, tiramisu, and gourmet milkshakes.",
+          "End your meal on a sweet note with our selection of desserts, including velvety mousse, crème brûlée, gourmet cupcakes, and seasonal fruit parfaits."
+        ]
+      },
+      {
+        "tag": "beverages",
+        "patterns": [
+          "What beverages do you offer?",
+          "Tell me about your drink menu",
+          "What can I drink at your place?"
+        ],
+        "responses": [
+          "Quench your thirst with our refreshing beverage menu, which includes options like freshly brewed coffee, iced teas, fruit smoothies, and handcrafted sodas.",
+          "We offer a variety of beverages to accompany your meal, including specialty coffees, herbal teas, fresh juices, sparkling water, and a selection of wines and beers.",
+          "Enjoy a wide range of drink choices from our menu, such as signature cocktails, mocktails, craft beers, fine wines, organic teas, and energizing fruit-infused waters."
+        ]
+      }
+    ]
+  }

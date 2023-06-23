@@ -1,6 +1,5 @@
 import random
 import json
-
 import torch
 
 from model import NeuralNet
@@ -9,6 +8,8 @@ from nltk_utils import bag_of_words, tokenize
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 with open('intents.json', 'r') as json_data:
+#with open('abc.json', 'r') as json_data:
+
     intents = json.load(json_data)
 
 FILE = "data.pth"
@@ -40,22 +41,9 @@ def get_response(msg):
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
-    if prob.item() > 0.75:
+    if prob.item() > 0.5:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     
     return "I do not understand..."
-
-
-if __name__ == "__main__":
-    print("Let's chat! (type 'quit' to exit)")
-    while True:
-        # sentence = "do you use credit cards?"
-        sentence = input("You: ")
-        if sentence == "quit":
-            break
-
-        resp = get_response(sentence)
-        print(resp)
-

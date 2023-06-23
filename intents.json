@@ -5,80 +5,334 @@
       "patterns": [
         "Hi",
         "Hey",
-        "How are you",
-        "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hello! Welcome to our bakery.",
+        "Hi there! How can I assist you today?",
+        "Hey! How can I help you with our bakery products?",
+        "Good day! How may I assist you?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Take care"
+      ],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Goodbye! Have a wonderful day.",
+        "Bye! We hope to see you again soon.",
+        "Take care! See you next time."
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Thanks",
+        "Thank you",
+        "Appreciate it",
+        "Thanks a lot"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "You're welcome! It was my pleasure to assist you.",
+        "You're welcome! If you have any more questions, feel free to ask.",
+        "No problem! Let me know if there's anything else I can help you with."
       ]
     },
     {
-      "tag": "payments",
+      "tag": "menu",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "What items do you have?",
+        "What's on the menu?",
+        "Tell me about your bakery items",
+        "todays menu",
+        "What can I order?",
+        "menu",
+        "What's on the menu?",
+         "Can you tell me about your menu?", 
+         "What do you offer?",
+         "menu"],
+        
+         "responses":[
+          "\n This is our Menu!\nCroissant - Rs.100\nCupcake - Rs.150\nBrownie - Rs.180\nChocolate cake - Rs.200\nChoco Shake - Rs.120\nCappuccino - Rs.130\nVanilla Cake - Rs.150\n Popsicle - Rs.50\nStrawberry Pie - Rs.100\nBlueberry Pie - Rs.110\nEspresso - Rs.80.00\nChoco Pudding - Rs.80\nCookies - Rs.200\nCinnamon Rolls - Rs.180\nChicken Pizza - Rs.200\nVeg Pizza - Rs.180\nDoughnuts - Rs.100\nCream Bun - Rs.100\nTiramisu - Rs.200"
+        ]
+    },
+    {
+      "tag": "specials",
+      "patterns": [
+        "Todays special",
+        "Are there any specials?",
+        "What are your daily specials?",
+        "Do you have any discounts?",
+        "Are there any promotions?",
+        "whats your special",
+        "whats todays special",
+        "specials"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Yes, we have daily specials that change frequently.",
+        "Absolutely! We offer daily specials and promotions.",
+        "Certainly! We regularly have special offers and discounts."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "customization",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "Can I customize my order?",
+        "Do you accommodate special requests?",
+        "Can I make changes to the menu items?",
+        "I want to add more",
+        "Are there options for dietary restrictions?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Yes, we can accommodate certain customization requests. Please let us know your specific requirements, and we will do our best to assist you.",
+        "Certainly! We understand that everyone has unique preferences. Feel free to inform us of any special requests or dietary restrictions, and we will try to accommodate them.",
+        "We strive to meet our customers' needs. If you have any special requests or dietary restrictions, please inform our staff, and we will assist you accordingly."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "hours",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "What are your business hours?",
+        "hours",
+        "timings",
+        "openings",
+        "When are you open?",
+        "What time do you close?",
+        "whats your timing",
+        "When do you close",
+        "when do you open",
+        "Are you open on weekends?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Our bakery is open from 9.00 am to 2.00 am on weekdays. On weekends, we operate 24 hours",
+        "We are open on weekdays from 9.00 am to 2.00 am, and on weekends 24 hours",
+        "Our business hours are 9.00 am to 2.00 am on weekdays, and 24 hours on weekends."
       ]
-    }
-  ]
-}
+    },
+    {
+      "tag": "vegan",
+      "patterns": [
+        "Do you have vegan options?",
+        "Are there any vegan items on the menu?",
+        "Can you recommend vegan choices?",
+        "vegan",
+        "I follow a vegan diet."
+      ],
+      "responses": [
+        "Yes, we offer a selection of vegan options on our menu.",
+        "Absolutely! We have a range of delicious vegan options for you to choose from.",
+        "We understand and appreciate different dietary preferences."
+      ]
+    },
+
+    {
+      "tag": "gluten_free",
+      "patterns": [
+        "Do you have gluten-free options?",
+        "Are there any gluten-free items?",
+        "Can you recommend gluten-free choices?",
+        "gluten-free",
+        "gluten free",
+        "I have a gluten intolerance."
+      ],
+      "responses": [
+        "Certainly! We have a variety of gluten-free options for you to enjoy. Let us know about your dietary requirements, and we will assist you accordingly.",
+        "Yes, we offer gluten-free options to cater to various dietary needs. Let us know about your dietary requirements, and we will assist you accordingly.",
+        "We understand the importance of gluten-free options. Our bakery provides a range of delicious gluten-free items. Let us know about your dietary requirements, and we will assist you accordingly."
+      ]
+    },
+    {
+      "tag": "kids",
+      "patterns": [
+        "Do you have options for kids?",
+        "Are there any kid-friendly items?",
+        "Can you recommend items for children?",
+        "I'm looking for something for my child."
+      ],
+      "responses": [
+        "Absolutely! We have a delightful range of kid-friendly items that are sure to please children of all ages.",
+        "Yes, we offer several options that are perfect for kids.",
+        "We have a special selection of items designed with kids in mind. Let us know your child's preferences, and we will suggest the perfect options."
+      ]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": [
+        "Tell me a fun fact",
+        "Share a bakery-related fact",
+        "Do you have any interesting facts?",
+        "fun fact",
+        "fact",
+        "interesting facts",
+        "intresting facts",
+        "I'd love to know a fun fact"
+      ],
+      "responses": [
+        "Sure, here's a fun fact: The world's largest birthday cake ever made was over 26,000 pounds and was created in 1989 to celebrate the 100th anniversary of the city of Fort Payne, Alabama.",
+        "Here's an interesting fact: The oldest known recipe for a cake is a Sumerian recipe dating back to 1750 BC. It was discovered on a tablet in Southern Iraq.",
+        "Did you know that the largest wedding cake ever made weighed over 15,000 pounds? It had more than 5,000 eggs, 4,810 pounds of icing sugar, and 2,500 pounds of marzipan.",
+        "The oldest known bakery dates back to ancient Egypt, around 2600 BC. It was discovered in the ruins of the city of Pompeii.",
+        "The croissant, a popular pastry associated with French bakeries, actually has origins in Austria. It was brought to France in the 19th century by Austrian bakers.",
+        "The world's largest gingerbread house was built in 2013 in Texas, USA. It measured over 21,000 square feet and used around 7,200 pounds of gingerbread dough.",
+        "The world's largest donut weighed over 3,699 pounds (1,680 kilograms) and was created in 2020 in Texas, USA.",
+        "The world record for the tallest cake ever made was set in 2018 in Kerala, India. The cake stood at an impressive height of 135.6 feet (41.25 meters).",
+        "The word 'biscuit' comes from the Latin term 'bis coctum' which means 'twice baked'. Biscuits were originally baked twice to remove moisture and extend their shelf life.",
+        "The first automatic bread-slicing machine was invented by Otto Frederick Rohwedder in 1928, revolutionizing the way bread is prepared and sold.",
+        "The world's largest wedding cake weighed over 15,032 pounds (6,825 kilograms). It had a height of 17 feet and was created in California, USA.",
+        "The tradition of blowing out candles on a birthday cake dates back to ancient Greece. The Greeks believed that candles on a cake made it resemble the moon, and blowing them out would send a prayer to the gods.",
+        "The pretzel, a popular baked snack, has a unique shape that is said to represent folded arms. It is believed to have originated in Europe in the 6th century."
+      ]
+    },
+    
+        {
+          "tag": "order",
+          "patterns": ["I'd like to order cupcakes", "Can I have some cupcakes?", "cupcakes","cupcake","cup cake","Cupcakes, please","Croissant" , "Cupcake", "Brownie", "cake", "Choco Shake","Chocolate shake", "Cappuccino", "Cake", "Popsicle", "Strawberry Pie", "Blueberry Pie", "Espresso", "Choco Pudding", "Cookies", "Cinnamon Rolls", "Chicken Pizza", "Veg Pizza", "Doughnuts", "Cream Bun", "Tiramisu"],
+          "responses": ["Absolutely! How many would you like?"]
+        },
+        {
+          "tag": "quantity",
+          "patterns":["1","2","3","4","5"],
+          "response":["okay"]
+
+        },
+        {
+          "tag": "order_cakes",
+          "patterns": ["I'd like to order a cake", "Can I have a cake?", "Cake","cakes","cake please"],
+          "responses": ["Sure! What flavor and size would you like for the cake?"]
+        },
+        {
+          "tag": "cakes_flavour",
+          "patterns": ["vanilla", "chocolate", "strawberry", "red velvet"],
+          "responses": ["Sure! how many do you want?"]
+        },
+        {
+          "tag": "size",
+          "patterns": ["1 kg", "2kg", "3kg","5kg"],
+          "responses": ["okay,do you want to order something else"]
+        },
+        {
+          "tag": "order_brownie",
+          "patterns": ["I'd like to order brownies", "Brownie","Can I have some brownies?", "Pastries, please"],
+          "responses": ["Certainly! How many would you like?"]
+        },
+        {
+          "tag": "order_cookies",
+          "patterns": ["I'd like to order cookies", "Can I have some cookies?","cookies", "Cookies please"],
+          "responses": ["Of course! How many cookies would you like?"]
+        },
+        {
+          "tag": "order_cappuccino",
+          "patterns": ["I'd like to order cappuccino", "Can I have some cappuccino?","cappuccino", "cappuccino please"],
+          "responses": ["Of course! How many cookies would you like?"]
+        },
+        {
+          "tag": "order_chicken pizza",
+          "patterns": ["I'd like to order chicken pizza", "Can I have some chicken pizza?","chicken pizza", "chicken pizza please"],
+          "responses": ["Of course! How many cookies would you like?"]
+        },
+        {
+          "tag": "order_choco pudding",
+          "patterns": ["I'd like to order choco pudding", "Can I have some choco pudding?","choco pudding", "choco pudding please"],
+          "responses": ["Of course! How many choco pudding would you like?"]
+        },
+        {
+          "tag": "order_espresso",
+          "patterns": ["I'd like to order espresso", "Can I have some espresso?","espresso", "Espresso please"],
+          "responses": ["Of course! How many espresso would you like?"]
+        },
+        {
+          "tag": "order_veg pizza",
+          "patterns": ["I'd like to order veg pizza", "Can I have some veg pizza?","veg pizzaa", "veg pizza please"],
+          "responses": ["Of course! How many cookies would you like?"]
+        },
+        {
+          "tag": "order_Doughnuts",
+          "patterns": ["I'd like to order Doughnuts", "Can I have some Doughnuts?","Doughnuts", "Doughnuts please"],
+          "responses": ["Of course! How many doughnuts would you like?"]
+        },
+        {
+          "tag": "order_Cream Bun",
+          "patterns": ["I'd like to Cream Bun", "Can I have some Cream Bun?", "Cream Bun please"],
+          "responses": ["Great choice! How many loaves of Cream Bun would you like?"]
+        },
+        {
+          "tag": "order_cakes",
+          "patterns": ["I'd like to order a cake", "Can I have a cake?", "Cake","cake please"],
+          "responses": ["Sure! What flavor and size would you like for the cake?"]
+        },
+           {
+          "tag": "order_confirmation",
+          "patterns": ["I would like to confirm my order", "Confirm my order", "Place my order","order confirm","confirm order"],
+          "responses": ["Sure! Your order is confirmed"]
+      },
+        {
+          "tag": "goodbye",
+          "patterns": ["Thank you", "Thanks", "Goodbye", "Bye"],
+          "responses": ["You're welcome! If you have any more questions, feel free to ask. Goodbye!"]
+        },
+        {
+          "tag": "alphabets",
+          "patterns": ["1","2","3","4","5","6","7","8","9","10"],
+          "responses": ["Do want to order some thing else?"]
+        },
+        {
+          "tag": "yes",
+          "patterns": ["yes", "yeah", "sure", "absolutely"],
+          "responses": ["Great! How can I assist you further?"]
+        },
+        {
+          "tag": "no",
+          "patterns": ["cancel", "no", "nah", "nope"],
+          "responses": ["thanks for ordering"]
+        },
+        {
+          "tag": "fallback",
+          "patterns": [""," ",",","."],
+          "responses": ["I'm sorry, but I didn't quite understand. Can you please rephrase or ask another question?"]
+        },
+        {
+          "tag": "order_items",
+          "patterns": [
+          "I would like to order [item]",
+          "Can I get [item], please?",
+          "I want to order [item]",
+          "May I have [item]?",
+          "[item]",
+          "I'd like [item], please"
+          ],
+          "responses": [
+          "Sure! I have added [item] to your order.",
+          "Certainly! Your order for [item] has been noted.",
+          "Great choice! We'll get [item] ready for you.",
+          "Absolutely! [item] has been added to your order.",
+          "Noted! Your order for [item] is confirmed."
+          ]
+          }, 
+              {
+                "tag": "order",
+                "patterns": [
+                  "I would like to place an order",
+                  "Can I order now?",
+                  "I'm ready to order",
+                  "What can I order?",
+                  "I'd like to order"
+                ],
+                "responses": [
+                  "Of course! I'm here to assist you with your order. Please let me know what items you would like to order from our menu.",
+                  "Certainly! I'm ready to take your order. Please let me know the items you would like to order from our menu.",
+                  "Great! I'm here to help you with your order. Please go ahead and let me know the items you would like to order from our menu.",
+                  "Absolutely! I'm here to assist you in placing your order. Just let me know what items you would like to order from our menu.",
+                  "Certainly! I'm here to take your order. Please go ahead and tell me the items you would like to order from our menu."
+                ]
+              }
+            ]
+          }
+        
+      
